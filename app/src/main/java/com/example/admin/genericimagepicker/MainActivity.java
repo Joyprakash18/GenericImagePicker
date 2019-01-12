@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         sdCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                handleGallerySelect();
             }
         });
     }
